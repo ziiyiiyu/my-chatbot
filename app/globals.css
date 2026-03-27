@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+@theme {
+  --color-theme-navy:  #071739;
+  --color-theme-steel: #4B6382;
+  --color-theme-slate: #A4B5C4;
+  --color-theme-cloud: #CDD5DB;
+  --color-theme-mocha: #A68868;
+  --color-theme-sand:  #E3C39D;
+}
+
+@theme inline {
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #071739;
+  color: #CDD5DB;
+  font-family: Arial, Helvetica, sans-serif;
+}
