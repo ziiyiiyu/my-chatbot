@@ -22,7 +22,7 @@ npm install
 
 ### 2. 設定 API 金鑰
 
-編輯 `.env.local`，將佔位符替換為你的實際金鑰：
+建立 `.env.local`，將佔位符替換為你的實際金鑰：
 
 ```
 GOOGLE_GENERATIVE_AI_API_KEY=你的金鑰
